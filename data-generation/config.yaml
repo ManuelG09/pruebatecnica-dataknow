@@ -1,0 +1,20 @@
+# Configuración de datos
+seed: 42
+fecha_fin: "2026-09-04"
+dias_historico: 365
+
+volumenes:
+  MSTR_ARTICULOS: 5000
+  MSTR_PROVEEDORES: 800
+  MSTR_TIENDAS: 150
+  CRM_MIEMBROS: 50000
+  TRANS_VENTAS: 1000000
+  INV_STOCK_DIARIO: 750000
+  POST_DEVOLUCIONES: 50000
+
+anomalias:
+  pct_duplicados: 0.003
+  pct_fechas_fuera_rango: 0.001
+  pct_integridad_rota: 0.001
+
+pct_nulos: 0.05

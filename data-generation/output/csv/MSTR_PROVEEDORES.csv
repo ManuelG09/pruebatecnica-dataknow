@@ -1,0 +1,801 @@
+id_proveedor,razon_social,pais_origen,tiempo_repo_dias,calificacion_calidad,activo
+1,"González, Villamizar and Vargas",Colombia,1,5.0,True
+2,Galvis Ltd,Peru,5,4.8,True
+3,"Galindo, García and Salazar",Peru,8,4.2,True
+4,López and Sons,Chile,13,4.8,True
+5,"Agudelo, Londoño and Becerra",Chile,11,4.0,True
+6,"Vásquez, Torres and Fernández",Ecuador,11,4.1,True
+7,Uribe and Sons,Colombia,8,3.3,True
+8,"Salazar, Castro and Rojas",Peru,2,4.2,True
+9,López-Rivera,Mexico,6,4.0,False
+10,Sanabria-Agudelo,Colombia,14,3.2,True
+11,Ariza PLC,Chile,1,4.0,True
+12,Cardozo Group,Ecuador,13,4.0,True
+13,Caicedo Ltd,Peru,10,5.0,True
+14,"Rivas, Morales and Ramírez",Peru,4,4.5,True
+15,Gómez and Sons,Peru,11,4.0,True
+16,Bustamante-Ordóñez,Peru,12,4.1,True
+17,Rivera Group,Chile,1,4.0,True
+18,"Palacio, Pérez and Mosquera",Colombia,2,3.9,True
+19,"Ortiz, Cuesta and Jaimes",Ecuador,10,3.4,True
+20,"Acevedo, Lozano and Vargas",Chile,14,3.9,True
+21,Rivera-Villamil,Chile,1,3.6,True
+22,"Pacheco, Torres and Valencia",Mexico,10,3.2,True
+23,Torres Inc,Colombia,2,4.3,True
+24,Castillo-Martínez,Ecuador,10,4.2,True
+25,"Pardo, Álvarez and Hoyos",Peru,9,2.9,False
+26,Loaiza-Franco,Peru,2,3.9,True
+27,Ortiz and Sons,Chile,10,4.6,True
+28,"Londoño, Muñoz and Orozco",Ecuador,13,4.6,False
+29,"Castillo, Torres and Bolívar",Chile,13,4.6,True
+30,"Rincón, Tovar and Prieto",Chile,1,4.0,True
+31,Pineda Ltd,Chile,4,3.5,True
+32,Hurtado-Flórez,Mexico,4,3.3,True
+33,"Orjuela, Contreras and Domínguez",Colombia,7,4.2,True
+34,Duarte Inc,Chile,3,4.2,True
+35,"Loaiza, Espinosa and Solano",Ecuador,12,4.8,True
+36,González-Mejía,Colombia,11,4.7,True
+37,Rodríguez-Camargo,Ecuador,12,3.9,True
+38,"Ortiz, Sierra and Díaz",Ecuador,3,3.3,True
+39,Polo LLC,Mexico,1,3.8,False
+40,"Palacios, Ramírez and Arias",Peru,13,4.1,True
+41,Montoya PLC,Colombia,5,3.9,True
+42,Carvajal Group,Peru,10,3.7,True
+43,González LLC,Peru,13,4.2,True
+44,Moreno-Moreno,Mexico,1,3.7,True
+45,"Erazo, García and Reyes",Colombia,1,,False
+46,Mantilla PLC,Ecuador,1,4.2,True
+47,Hernández Group,Chile,3,3.8,True
+48,"Pérez, Silva and Calderón",Ecuador,1,4.1,True
+49,Oviedo Ltd,Peru,12,4.2,True
+50,"Ramírez, Álvarez and Barragán",Peru,9,3.3,True
+51,"Arias, Maldonado and Cárdenas",Peru,14,3.7,True
+52,Torres LLC,Colombia,12,4.9,True
+53,Fernández and Sons,Mexico,14,,True
+54,"Torres, García and Barrera",Chile,4,2.7,True
+55,Martínez Inc,Chile,5,,False
+56,García-Moreno,Colombia,12,4.0,True
+57,"Reyes, Montoya and Vanegas",Chile,4,4.0,True
+58,"Escobar, Vargas and Ortega",Colombia,1,3.9,True
+59,Ramírez-López,Peru,10,4.7,True
+60,Mosquera-Peña,Peru,12,2.4,True
+61,"Martínez, Arango and Jaimes",Ecuador,14,4.2,True
+62,Castillo LLC,Peru,13,4.9,True
+63,Vargas and Sons,Mexico,2,3.3,True
+64,"Cardona, Salazar and Castro",Ecuador,11,3.8,True
+65,Pulido Inc,Chile,12,3.5,True
+66,Montes-Ordóñez,Mexico,10,3.5,False
+67,Martínez PLC,Ecuador,12,3.8,True
+68,Tamayo and Sons,Mexico,12,4.9,True
+69,Parra Group,Colombia,7,5.0,True
+70,Leal Inc,Chile,1,3.8,True
+71,Rivera Group,Peru,7,5.0,True
+72,Carmona-Serna,Colombia,3,4.0,True
+73,Salazar-Yepes,Chile,2,5.0,True
+74,"Durán, Reyes and Díaz",Colombia,2,3.9,True
+75,Tamayo PLC,Peru,10,4.1,True
+76,"Ríos, Cano and Martínez",Chile,8,4.2,True
+77,"Acosta, Villegas and Contreras",Mexico,8,,True
+78,Salamanca Inc,Mexico,11,4.5,True
+79,García Inc,Chile,8,3.6,True
+80,"Prieto, Parra and Ibarra",Peru,9,4.6,True
+81,"Vargas, Hurtado and Beltrán",Ecuador,2,3.8,True
+82,Navarro-Ospina,Chile,12,3.7,False
+83,Betancur-Ramírez,Colombia,7,,True
+84,"Álvarez, Ortiz and Hernández",Ecuador,3,4.0,True
+85,"Suárez, Ruiz and Espinosa",Peru,12,,True
+86,Rodríguez PLC,Peru,11,4.0,True
+87,"Orjuela, García and Rojas",Colombia,1,4.2,True
+88,Hernández-Romero,Mexico,3,4.3,True
+89,Cuéllar LLC,Peru,1,2.8,False
+90,Sánchez-Palacio,Ecuador,4,4.4,True
+91,"Suárez, Castrillón and Arévalo",Chile,2,3.4,False
+92,"Rodríguez, Ayala and Suárez",Ecuador,10,3.1,False
+93,"López, Monsalve and Ortiz",Ecuador,8,4.0,True
+94,Villamizar and Sons,Mexico,14,4.1,True
+95,Castro-Rojas,Ecuador,11,3.6,True
+96,Ramírez-Acevedo,Mexico,9,4.5,False
+97,Mora-Vargas,Mexico,8,,True
+98,López Group,Peru,1,3.8,True
+99,Gómez-Quintero,Peru,1,3.6,True
+100,Henao LLC,Colombia,9,4.0,True
+101,Mena PLC,Ecuador,1,4.2,True
+102,"Osorio, Rodríguez and García",Colombia,1,3.4,True
+103,"Rentería, Vásquez and Palacio",Ecuador,4,4.4,False
+104,"Cortés, Osorio and Gómez",Colombia,13,4.0,True
+105,Maldonado-Rosero,Peru,7,2.9,True
+106,Maldonado and Sons,Peru,10,2.8,True
+107,"Vargas, López and Patiño",Peru,6,,True
+108,Quiroz-Zambrano,Peru,3,3.9,True
+109,Leal and Sons,Chile,6,3.9,True
+110,Rodríguez-Galvis,Peru,2,4.0,True
+111,Ocampo-Peña,Mexico,11,4.1,True
+112,"Alvarado, Arrieta and Ortiz",Peru,3,4.6,True
+113,"González, Bohórquez and Andrade",Chile,6,3.3,True
+114,Ramírez Group,Chile,14,3.3,True
+115,Suárez-Rosero,Chile,9,3.3,True
+116,Torres Ltd,Chile,7,4.2,True
+117,Castillo LLC,Colombia,8,4.7,True
+118,Parada LLC,Colombia,11,3.7,True
+119,Bedoya-Castillo,Mexico,4,2.5,True
+120,"Valencia, Gómez and Monsalve",Colombia,9,3.0,True
+121,Díaz-Burgos,Chile,13,,False
+122,Gómez-Hurtado,Peru,9,3.7,True
+123,Padilla-Álvarez,Peru,7,3.8,True
+124,"Bustamante, González and Maldonado",Chile,3,4.0,True
+125,Muñoz Ltd,Ecuador,4,3.8,True
+126,Rodríguez-Velandia,Chile,14,4.6,True
+127,"Pacheco, Ballesteros and Daza",Colombia,8,3.6,True
+128,Morales Inc,Peru,5,3.5,True
+129,"Cáceres, Trujillo and Vergara",Chile,6,4.3,True
+130,Pinzón LLC,Peru,9,3.1,True
+131,"Álvarez, Parra and Castillo",Chile,8,4.2,True
+132,Cortés-Ramírez,Chile,10,4.1,True
+133,"Ballesteros, Buitrago and Pabón",Colombia,4,3.9,True
+134,"Jaramillo, Parra and Palacio",Chile,10,5.0,False
+135,Gutiérrez-Osorio,Peru,7,3.6,True
+136,"Calderón, Ruiz and Marín",Mexico,14,5.0,True
+137,"Rojas, Ortega and Galeano",Peru,3,3.9,True
+138,"Pérez, García and Molina",Colombia,3,3.2,True
+139,"Beltrán, López and Cantillo",Mexico,7,4.0,True
+140,Sandoval and Sons,Chile,8,3.4,True
+141,Sánchez Inc,Ecuador,10,3.5,True
+142,Castrillón PLC,Mexico,6,4.2,True
+143,Cárdenas Ltd,Mexico,13,4.3,True
+144,"Ramírez, Benavides and Zapata",Chile,7,3.6,True
+145,Sánchez Ltd,Ecuador,2,4.6,True
+146,Galindo Inc,Ecuador,2,4.7,True
+147,Torres-Cifuentes,Colombia,14,4.9,True
+148,"Delgado, Martínez and Vargas",Mexico,2,4.3,False
+149,Cruz Group,Ecuador,14,4.8,False
+150,"Contreras, Velásquez and Ruiz",Colombia,4,2.9,False
+151,Ávila-Pinzón,Ecuador,2,3.8,True
+152,"Osorio, Fajardo and Marín",Mexico,5,,True
+153,Sarmiento Group,Ecuador,9,4.1,True
+154,Muñoz-Vargas,Mexico,6,3.7,True
+155,"Castro, Castaño and Reyes",Chile,11,3.9,True
+156,Castro Inc,Peru,9,,True
+157,"Gutiérrez, Ortiz and Ruiz",Colombia,6,3.9,False
+158,"García, Sánchez and Flórez",Chile,9,4.2,True
+159,Toro Inc,Chile,14,3.9,True
+160,Parra-Ríos,Peru,6,4.0,True
+161,Martínez-Roa,Ecuador,3,4.0,True
+162,Espitia-Orozco,Peru,6,4.3,True
+163,"Rodríguez, Rangel and Escobar",Chile,12,4.7,True
+164,Rodríguez-Romero,Chile,4,5.0,True
+165,Márquez-Posada,Chile,14,4.2,True
+166,Montoya-Galvis,Ecuador,9,4.4,True
+167,"Burbano, Reyes and Castro",Mexico,9,3.3,True
+168,Gómez-Quintero,Colombia,5,3.9,True
+169,"Bautista, Vanegas and Villa",Mexico,13,4.6,True
+170,Puentes PLC,Colombia,1,4.5,True
+171,Fajardo PLC,Colombia,5,4.1,True
+172,"Vergara, García and Osorio",Colombia,6,4.5,True
+173,Díaz-Muñoz,Peru,7,4.3,True
+174,Rojas-Valencia,Peru,7,4.7,True
+175,Castro-Angarita,Peru,3,4.2,True
+176,Vargas-García,Chile,4,3.8,True
+177,Zambrano Inc,Peru,2,4.2,True
+178,Torres-García,Colombia,9,2.2,True
+179,"Gómez, Gómez and Vargas",Ecuador,5,4.2,True
+180,Trujillo and Sons,Chile,8,1.8,True
+181,Ortega Inc,Ecuador,9,3.0,True
+182,"Erazo, Restrepo and Muñoz",Colombia,10,4.3,True
+183,Pérez-Calderón,Chile,8,4.3,True
+184,"Pinzón, Castaño and Pérez",Peru,10,,True
+185,González-Rodríguez,Chile,9,3.6,False
+186,Escobar-Gamboa,Chile,10,4.8,True
+187,Medina-Forero,Colombia,9,3.7,True
+188,Vega Ltd,Mexico,5,5.0,True
+189,López LLC,Mexico,4,4.0,True
+190,"Carvajal, González and Castrillón",Mexico,12,4.2,True
+191,Romero Group,Peru,5,5.0,True
+192,"Arias, Mora and Herrera",Peru,8,4.1,True
+193,Pinto-López,Peru,3,3.4,True
+194,Acevedo-Salcedo,Mexico,7,3.9,True
+195,"Sánchez, Díaz and Guzmán",Ecuador,8,4.0,True
+196,"Ortiz, Montes and Montoya",Colombia,9,3.2,True
+197,Restrepo-Luna,Mexico,8,3.8,True
+198,"Ortiz, Melo and Serrano",Colombia,6,3.6,True
+199,Castro Group,Mexico,14,4.6,True
+200,Espinosa PLC,Ecuador,8,4.0,True
+201,"Camacho, Quintero and Zapata",Mexico,12,3.8,True
+202,Díaz-Rojas,Ecuador,11,3.9,True
+203,Herrera-Rangel,Chile,8,4.1,True
+204,"Cuéllar, Cortés and Delgado",Peru,13,4.4,True
+205,García Ltd,Chile,2,3.4,True
+206,Reyes-Uribe,Mexico,13,3.4,True
+207,"Acosta, Amaya and Cardona",Peru,12,4.7,True
+208,López and Sons,Ecuador,8,3.8,True
+209,Aguirre-Suárez,Mexico,11,3.1,True
+210,"Arias, Cortés and Herrera",Peru,8,,True
+211,"Caicedo, Romero and Cárdenas",Mexico,4,4.3,False
+212,Vargas-González,Peru,12,3.1,True
+213,Ruiz Ltd,Peru,4,4.1,True
+214,"Angarita, Barrios and Ramírez",Chile,5,4.4,True
+215,"Ramos, Vanegas and Rendón",Peru,8,4.2,True
+216,"Hurtado, Puentes and Roa",Mexico,12,4.4,True
+217,Torres-Díaz,Colombia,6,3.2,True
+218,Toro and Sons,Colombia,7,4.2,True
+219,Gómez-Martínez,Chile,1,3.8,False
+220,Benavides-Hernández,Ecuador,2,3.7,True
+221,López-Rodríguez,Colombia,1,4.5,True
+222,Correa-Mendoza,Chile,2,4.9,False
+223,Paz LLC,Peru,13,5.0,True
+224,González-Martínez,Mexico,12,4.8,True
+225,García-Méndez,Peru,12,3.9,True
+226,Sánchez PLC,Mexico,1,4.2,True
+227,García-Vargas,Ecuador,2,4.5,True
+228,"Cabrera, Calderón and Mercado",Chile,4,4.1,True
+229,Guevara Group,Chile,8,4.1,True
+230,Gamboa-Jiménez,Colombia,5,4.5,True
+231,"Cerón, Suárez and Beltrán",Chile,7,4.0,True
+232,"Olaya, López and Castellanos",Ecuador,3,3.6,True
+233,"Rojas, Durán and Sánchez",Colombia,11,3.8,True
+234,Caicedo and Sons,Peru,5,4.4,False
+235,Parra Ltd,Chile,1,4.0,True
+236,"Correa, Gómez and Gutiérrez",Peru,11,4.2,True
+237,Narváez-Cárdenas,Peru,13,4.4,True
+238,"Moreno, Ortiz and Mercado",Chile,1,3.8,True
+239,"Durán, Saavedra and Salazar",Mexico,7,4.5,True
+240,"Torres, Sánchez and Ortiz",Peru,12,4.2,True
+241,García and Sons,Colombia,10,3.3,True
+242,Hurtado-Bravo,Chile,12,4.9,False
+243,Mendoza-Correa,Colombia,6,3.7,True
+244,Bermúdez-Valderrama,Peru,6,3.0,True
+245,"Montoya, Mendoza and Carvajal",Peru,10,3.4,True
+246,Galvis-Agudelo,Colombia,3,3.4,False
+247,López Ltd,Peru,4,4.0,True
+248,"Fernández, Rodríguez and Cabrera",Chile,9,3.8,True
+249,Escobar-Castellanos,Peru,10,3.8,True
+250,Correa Ltd,Colombia,2,4.4,True
+251,Ceballos-Díaz,Colombia,8,4.2,True
+252,"Mejía, Aguilar and Tamayo",Chile,6,4.2,False
+253,Romero-Quintero,Colombia,8,4.2,False
+254,"López, Pérez and Peña",Mexico,14,4.4,True
+255,Gutiérrez-Garcés,Peru,2,2.7,True
+256,"Gómez, López and Muñoz",Colombia,14,3.8,True
+257,Manrique Group,Peru,7,2.7,False
+258,"Luna, Rodríguez and Polo",Colombia,11,4.0,True
+259,Peña-Díaz,Colombia,6,4.0,True
+260,Trujillo-Sierra,Chile,5,4.6,True
+261,Ochoa-Ramírez,Peru,11,4.7,True
+262,"Hernández, Gutiérrez and Rangel",Colombia,10,4.1,True
+263,González-Quiroz,Mexico,3,3.7,False
+264,"Vera, Blanco and Álvarez",Ecuador,10,4.3,False
+265,Cortés Inc,Ecuador,11,3.7,False
+266,Ángel Inc,Chile,6,4.0,True
+267,Erazo-Jaimes,Chile,13,4.6,True
+268,Sierra Ltd,Mexico,9,3.7,True
+269,Palacios-Castro,Peru,5,,True
+270,Puentes-Vargas,Chile,1,4.4,True
+271,"Sánchez, Ramírez and Carvajal",Mexico,10,3.4,True
+272,"Cuéllar, Alvarado and Castro",Colombia,3,4.6,True
+273,Herrera-Mesa,Colombia,11,4.4,True
+274,Fonseca-Gutiérrez,Ecuador,8,4.1,True
+275,Velasco-Murillo,Chile,7,3.5,True
+276,"Rincón, Sánchez and Montoya",Chile,3,3.5,True
+277,Quintero-Castellanos,Chile,10,3.7,True
+278,Cárdenas-Ruiz,Peru,3,4.3,True
+279,Puentes and Sons,Colombia,6,3.4,True
+280,"Flórez, Ordóñez and Peña",Colombia,12,4.3,True
+281,Sarmiento-Rueda,Mexico,13,3.3,True
+282,Flórez-Vergara,Chile,14,3.9,True
+283,"Puentes, Zapata and Gómez",Peru,14,4.1,True
+284,"Paz, Quintero and López",Chile,8,5.0,True
+285,López-Vallejo,Chile,3,3.2,True
+286,Camargo Group,Ecuador,12,4.9,True
+287,"Manrique, García and Ocampo",Colombia,12,4.1,True
+288,Quintero-Aguirre,Chile,14,4.2,True
+289,"García, Valencia and Gil",Chile,10,4.1,True
+290,"Rivera, Ruiz and Pinzón",Chile,2,4.3,True
+291,Arboleda-Gómez,Ecuador,8,3.9,True
+292,Moreno Ltd,Mexico,7,4.9,True
+293,Bolívar-Cano,Ecuador,12,3.7,True
+294,Mantilla-Ochoa,Mexico,6,4.7,True
+295,"Arboleda, Marín and Vélez",Chile,5,3.6,True
+296,Gómez Inc,Chile,2,4.0,True
+297,Mosquera-Osorio,Ecuador,12,3.4,True
+298,Contreras PLC,Chile,11,4.3,True
+299,"Alzate, Pérez and García",Mexico,1,4.9,True
+300,Beltrán-Moreno,Colombia,7,4.0,True
+301,"Sánchez, Restrepo and Muñoz",Mexico,7,3.9,True
+302,Soto-Maldonado,Ecuador,7,,True
+303,Galeano-Buitrago,Colombia,13,3.9,False
+304,García LLC,Ecuador,3,3.0,True
+305,"Jiménez, Burgos and Barrios",Chile,5,3.5,True
+306,Meza-Ramírez,Colombia,3,4.1,True
+307,Márquez-González,Mexico,4,4.8,True
+308,Córdoba-Córdoba,Chile,13,5.0,True
+309,"Jiménez, Mantilla and Navarro",Mexico,14,3.6,True
+310,Rodríguez-Leal,Colombia,1,4.9,False
+311,"Quiroz, Vallejo and Sarmiento",Peru,9,4.1,True
+312,Guevara-Torres,Peru,4,3.9,True
+313,Torres-Díaz,Colombia,3,4.3,True
+314,Buitrago-Camargo,Mexico,5,4.0,True
+315,"Duarte, Hernández and López",Mexico,3,4.1,True
+316,"Jaimes, Álvarez and Mendoza",Peru,7,3.8,True
+317,"Morales, Hernández and Chávez",Peru,14,3.2,True
+318,Cano-Díaz,Peru,9,3.1,True
+319,Mesa LLC,Ecuador,11,4.4,True
+320,"Sierra, Ortiz and Pérez",Peru,7,,True
+321,Parada-Jiménez,Mexico,1,3.6,True
+322,Cifuentes-Correa,Colombia,2,4.0,True
+323,Hernández and Sons,Peru,4,4.5,True
+324,"Vanegas, Puentes and Parada",Ecuador,4,4.1,True
+325,"Morales, Mercado and Rodríguez",Ecuador,12,3.6,True
+326,"González, Arias and Zambrano",Mexico,12,4.7,True
+327,Orozco-Pinto,Mexico,12,4.9,True
+328,González-Moreno,Colombia,9,4.3,True
+329,Beltrán PLC,Colombia,8,4.6,True
+330,Ceballos-Torres,Chile,10,4.7,True
+331,Acevedo Group,Chile,6,4.7,True
+332,"Suárez, Parra and Hernández",Mexico,10,4.4,True
+333,Suárez Group,Mexico,12,4.4,True
+334,López PLC,Ecuador,11,4.3,True
+335,Giraldo LLC,Chile,9,3.3,True
+336,"Núñez, Benavides and Montoya",Ecuador,1,4.4,False
+337,"Villamizar, Sánchez and Guerrero",Ecuador,11,3.2,True
+338,Palacio PLC,Mexico,6,3.5,False
+339,Rico-Castro,Mexico,11,4.8,True
+340,"Arias, Marín and Quiroga",Ecuador,8,4.5,False
+341,López-Duque,Peru,13,4.9,False
+342,"Pabón, Franco and Martínez",Mexico,5,3.8,True
+343,Díaz-González,Peru,14,3.3,True
+344,López-Rojas,Chile,12,3.9,False
+345,"Hurtado, Rodríguez and Mesa",Ecuador,5,4.1,False
+346,Villamil PLC,Mexico,7,4.0,False
+347,García PLC,Ecuador,8,4.7,True
+348,Orozco and Sons,Ecuador,11,3.8,True
+349,Guevara-Angulo,Colombia,10,4.2,True
+350,"Rodríguez, Andrade and Sánchez",Colombia,12,3.4,True
+351,Montoya and Sons,Chile,6,4.3,True
+352,Durán Inc,Colombia,8,4.0,True
+353,Rodríguez and Sons,Mexico,7,3.6,True
+354,"Valencia, Pérez and Martínez",Chile,13,3.9,True
+355,"Salazar, González and Martínez",Ecuador,5,3.9,True
+356,Castaño-Molina,Ecuador,9,3.8,True
+357,Cárdenas and Sons,Colombia,2,5.0,True
+358,"Gómez, Páez and Gaviria",Ecuador,12,3.9,True
+359,"Suárez, Franco and Gómez",Colombia,6,3.9,True
+360,Sanabria-Osorio,Peru,5,2.7,True
+361,Rincón Group,Ecuador,9,3.5,True
+362,Maldonado LLC,Ecuador,7,3.8,False
+363,"Sánchez, Hernández and Trujillo",Mexico,12,3.6,True
+364,"Caicedo, Valencia and Portilla",Ecuador,8,4.8,True
+365,"Jiménez, Mora and Osorio",Colombia,8,3.9,True
+366,"González, Hoyos and Monsalve",Chile,2,4.8,True
+367,"Camargo, Rojas and Cárdenas",Chile,1,4.0,True
+368,Peña Group,Mexico,6,4.0,False
+369,Guerrero-López,Colombia,14,3.9,True
+370,Álvarez-Muñoz,Peru,13,4.0,True
+371,Pacheco Group,Mexico,9,5.0,True
+372,López Inc,Peru,9,2.6,True
+373,Mejía Ltd,Chile,6,2.8,True
+374,"Arias, Hernández and Martínez",Mexico,3,3.7,True
+375,"Londoño, Camacho and Peña",Ecuador,1,4.0,True
+376,"Ibarra, Salazar and Ceballos",Colombia,5,,False
+377,Bolaños PLC,Peru,5,4.3,True
+378,Romero-Escobar,Peru,3,3.8,True
+379,Sánchez Group,Mexico,4,4.6,False
+380,Sanabria LLC,Mexico,1,4.6,True
+381,"Morales, Castellanos and Córdoba",Colombia,9,4.1,True
+382,Meza-Bastidas,Ecuador,13,4.6,True
+383,"Ávila, Franco and Rodríguez",Ecuador,10,,True
+384,"Salcedo, Ortiz and Díaz",Mexico,7,3.7,True
+385,"Castellanos, Cáceres and Romero",Colombia,6,4.4,True
+386,Polo PLC,Colombia,5,4.1,True
+387,"Castillo, Sánchez and Barrera",Colombia,2,4.0,True
+388,López PLC,Ecuador,9,4.9,True
+389,Rivera Group,Ecuador,8,2.5,True
+390,Sánchez-Álvarez,Colombia,1,3.1,True
+391,Castaño-Ospina,Peru,6,3.3,True
+392,Loaiza and Sons,Colombia,4,3.8,True
+393,Gallego Inc,Mexico,3,3.8,False
+394,"García, Marín and Salazar",Chile,10,3.1,True
+395,"Marín, Castro and Tovar",Peru,8,3.4,True
+396,Herrera Inc,Ecuador,9,3.5,True
+397,Buitrago-Vega,Colombia,10,5.0,True
+398,"Soto, Gómez and Medina",Colombia,14,5.0,True
+399,"Martínez, Ramírez and Garcés",Mexico,12,3.8,True
+400,Cabrera LLC,Mexico,9,3.8,True
+401,González-Zapata,Ecuador,13,3.3,True
+402,Díaz-Rivera,Peru,7,2.9,True
+403,"Torres, Velásquez and Camacho",Mexico,14,3.9,True
+404,García-Prieto,Ecuador,11,3.4,True
+405,Mejía Group,Chile,10,3.9,True
+406,Prieto PLC,Chile,13,3.0,True
+407,Córdoba-Blanco,Chile,8,3.5,True
+408,Gutiérrez-Parra,Colombia,11,4.1,True
+409,Pérez-Erazo,Ecuador,4,4.2,True
+410,Roa-Villegas,Colombia,14,,True
+411,Mendoza Inc,Colombia,9,,True
+412,Mejía Group,Mexico,11,4.5,True
+413,"García, Polo and Cano",Mexico,7,,True
+414,Quintero and Sons,Colombia,13,4.4,True
+415,Palacios Inc,Colombia,2,4.0,True
+416,"Palacios, Espitia and Romero",Peru,2,3.2,True
+417,"Bustos, Franco and Sánchez",Ecuador,8,3.8,True
+418,Sánchez and Sons,Colombia,11,4.2,True
+419,Agudelo Ltd,Mexico,12,4.4,True
+420,Díaz Ltd,Chile,7,3.9,True
+421,Restrepo-Londoño,Ecuador,10,4.9,True
+422,"Cardona, Salgado and Ospina",Peru,8,4.6,True
+423,"Ospino, Ruiz and Domínguez",Peru,14,3.8,True
+424,Sánchez-García,Chile,10,4.5,True
+425,Barrera-Rosero,Chile,6,5.0,True
+426,"Martínez, Palacios and Álvarez",Colombia,14,5.0,True
+427,Gómez-Arias,Ecuador,2,3.3,False
+428,García-Alvarado,Ecuador,14,3.4,True
+429,Garzón PLC,Colombia,3,4.9,True
+430,Restrepo-Cortés,Peru,5,3.4,True
+431,"Triana, Cardona and Arrieta",Colombia,12,3.2,True
+432,"Díaz, Calderón and Sierra",Peru,11,3.7,True
+433,Cardona LLC,Ecuador,14,4.3,True
+434,"García, Jaimes and Gómez",Colombia,11,3.9,False
+435,"Mendoza, Mendoza and Guzmán",Chile,9,3.6,False
+436,Morales LLC,Colombia,5,3.6,True
+437,Parra-Quintero,Chile,1,3.6,True
+438,"Martínez, Barrera and Quintero",Ecuador,2,3.5,True
+439,López-Buitrago,Colombia,5,5.0,True
+440,Vargas-Melo,Mexico,1,4.2,True
+441,"Arboleda, Quintero and Murillo",Ecuador,8,4.5,False
+442,Alarcón LLC,Mexico,11,3.7,True
+443,"Benavides, Giraldo and Hurtado",Colombia,14,3.9,True
+444,Álvarez Group,Chile,7,3.6,True
+445,"Mercado, Guerra and Camacho",Chile,13,2.4,True
+446,"Bolívar, Barreto and López",Peru,14,3.2,True
+447,"Salazar, Morales and Morales",Mexico,13,2.9,False
+448,Angarita LLC,Ecuador,7,2.7,True
+449,Ramírez-Anaya,Chile,5,3.3,True
+450,García Inc,Mexico,14,4.8,True
+451,"Fuentes, Palacio and Loaiza",Ecuador,4,4.0,False
+452,Durán PLC,Ecuador,6,4.8,True
+453,Hurtado and Sons,Chile,2,4.2,True
+454,Díaz Ltd,Colombia,12,4.5,True
+455,"Montes, Pérez and Mendoza",Chile,10,3.5,True
+456,Morales-Pinzón,Chile,2,4.3,False
+457,León-Espinosa,Colombia,4,4.4,True
+458,Moreno-Moreno,Peru,8,3.7,False
+459,Rentería-Ramírez,Ecuador,8,4.3,True
+460,"Erazo, Bustamante and Restrepo",Colombia,12,4.3,True
+461,Castaño-Mora,Peru,4,3.7,True
+462,Parada-Ayala,Colombia,13,3.3,True
+463,"Hernández, Vargas and Bedoya",Peru,7,3.3,True
+464,Cortés-López,Chile,12,4.1,True
+465,"Melo, Gutiérrez and Castellanos",Colombia,4,4.2,True
+466,Cardona-Molina,Ecuador,1,3.5,True
+467,López-Vallejo,Colombia,1,4.0,False
+468,Loaiza-Granados,Chile,6,4.3,True
+469,Martínez-Sierra,Colombia,14,4.4,True
+470,Flórez Inc,Ecuador,1,4.9,True
+471,Torres-Ruiz,Peru,6,4.8,True
+472,Villa Ltd,Ecuador,2,3.4,True
+473,Mercado-Hernández,Chile,14,5.0,True
+474,Alarcón-Ortega,Chile,10,3.7,True
+475,Uribe Group,Peru,11,4.6,True
+476,Garzón-Espitia,Peru,10,4.0,True
+477,Muñoz and Sons,Ecuador,10,3.8,True
+478,"Ballesteros, León and Salazar",Colombia,11,2.9,True
+479,Moreno-González,Peru,1,3.9,True
+480,Guerrero PLC,Colombia,13,3.1,True
+481,Martínez-Perea,Mexico,11,4.6,True
+482,Hurtado-Rodríguez,Ecuador,11,4.9,True
+483,"Córdoba, Pinzón and Jiménez",Mexico,6,3.5,True
+484,Garzón and Sons,Peru,12,4.2,True
+485,"Guerrero, Vergara and García",Chile,6,3.6,False
+486,Martínez-Silva,Mexico,1,3.6,True
+487,"Serna, Palacios and Rodríguez",Mexico,13,4.5,True
+488,Gómez-Giraldo,Chile,4,4.0,True
+489,Muñoz-Rodríguez,Peru,2,5.0,True
+490,Herrera Ltd,Peru,9,3.7,True
+491,"Méndez, Fuentes and Galvis",Ecuador,4,4.6,True
+492,Hernández-Romero,Ecuador,13,4.1,True
+493,Aguilar-Díaz,Peru,7,4.5,True
+494,"Restrepo, Vélez and Barrera",Peru,1,3.7,False
+495,Martínez Group,Mexico,14,4.0,True
+496,Jiménez Inc,Chile,8,3.9,True
+497,Rivas LLC,Colombia,4,3.5,True
+498,Molina-Villamil,Mexico,10,4.4,False
+499,"Ortega, Gómez and Jaimes",Ecuador,8,4.4,True
+500,Mosquera-Ocampo,Chile,1,4.4,True
+501,"Quintero, González and Morales",Colombia,11,4.9,True
+502,Villamizar-Lara,Peru,6,4.9,True
+503,Herrera-Díaz,Ecuador,10,3.8,True
+504,"Zapata, Salgado and Delgado",Ecuador,13,4.2,True
+505,Bonilla Inc,Mexico,9,,True
+506,Agudelo-Pinto,Chile,10,4.0,False
+507,"Jiménez, López and Valencia",Chile,4,3.6,True
+508,Suárez-Agudelo,Mexico,4,5.0,True
+509,Pérez-Marín,Mexico,6,4.2,True
+510,Gómez-Polo,Mexico,12,3.9,True
+511,Garzón-Mejía,Ecuador,8,4.7,True
+512,"Puentes, Erazo and García",Peru,5,2.7,True
+513,"Parra, Molina and Zambrano",Ecuador,11,2.8,True
+514,Cantillo and Sons,Ecuador,12,4.5,True
+515,"Buitrago, Mendoza and Hernández",Ecuador,13,4.0,True
+516,Patiño LLC,Colombia,5,4.2,True
+517,Flórez-Ospina,Ecuador,10,3.2,True
+518,"Sánchez, Cardona and Arias",Colombia,9,4.0,True
+519,Castellanos-Córdoba,Chile,7,5.0,True
+520,"Morales, Álvarez and Castro",Chile,6,,True
+521,Rodríguez and Sons,Mexico,2,4.1,True
+522,Delgado-Caro,Colombia,4,3.7,True
+523,Muñoz LLC,Colombia,8,3.8,False
+524,"Marín, Orjuela and Gutiérrez",Ecuador,13,2.7,False
+525,Ramírez-Hernández,Mexico,13,4.2,True
+526,Cárdenas Ltd,Mexico,3,4.5,True
+527,Bolívar-Arrieta,Ecuador,10,3.1,True
+528,Soto-Blanco,Colombia,2,3.6,True
+529,"Ríos, Galindo and Melo",Ecuador,10,3.3,True
+530,"Blanco, Bermúdez and Pérez",Ecuador,5,3.4,True
+531,Palacios-González,Chile,7,4.0,True
+532,Mercado and Sons,Colombia,11,2.7,True
+533,Rodríguez-Cortés,Colombia,6,4.4,True
+534,Correa-Riascos,Mexico,12,4.5,True
+535,Ávila Inc,Chile,8,3.8,True
+536,Álvarez Ltd,Colombia,14,2.5,False
+537,"Acosta, Peña and Peña",Chile,9,3.4,True
+538,"García, Cardozo and Bedoya",Colombia,5,4.7,False
+539,Restrepo-Delgado,Chile,11,2.3,True
+540,Monsalve PLC,Colombia,6,3.8,True
+541,"Fernández, Castañeda and Hernández",Peru,8,3.3,True
+542,"Vallejo, Martínez and González",Colombia,2,4.5,True
+543,Suárez and Sons,Colombia,2,3.6,True
+544,Betancur-Torres,Colombia,9,4.2,True
+545,"Lara, Sanabria and Vargas",Ecuador,3,4.3,True
+546,"Arteaga, Castro and Pineda",Colombia,14,5.0,True
+547,"Lozano, Sierra and Pérez",Chile,12,3.9,True
+548,"Sánchez, Navarro and Camargo",Chile,10,4.2,True
+549,"Quintero, Salgado and Gómez",Chile,11,3.1,True
+550,García Ltd,Peru,9,4.7,True
+551,"Ortiz, Rojas and Córdoba",Ecuador,1,,True
+552,"Henao, Zapata and Pineda",Mexico,6,3.7,True
+553,Bedoya-Suárez,Ecuador,7,4.0,True
+554,Cifuentes Ltd,Mexico,13,3.1,True
+555,Jiménez-García,Ecuador,4,4.1,True
+556,Sánchez Group,Chile,7,4.6,True
+557,Restrepo-Herrera,Peru,5,4.2,True
+558,Álvarez Ltd,Ecuador,2,3.0,True
+559,Ardila-Estrada,Peru,2,3.9,True
+560,Hernández-Arias,Ecuador,6,4.4,True
+561,"López, Vargas and González",Chile,2,2.9,True
+562,Vargas-López,Colombia,1,3.4,True
+563,Garcés-Alvarado,Chile,5,4.5,True
+564,Vargas-Leal,Colombia,3,4.2,True
+565,Guerra PLC,Ecuador,8,4.2,True
+566,"Álvarez, Castellanos and Sierra",Mexico,1,5.0,True
+567,"Correa, Cuéllar and Zapata",Mexico,5,4.3,True
+568,Garcés PLC,Mexico,7,4.4,True
+569,Parada-Rojas,Peru,14,5.0,True
+570,Martínez-Castro,Chile,9,3.9,False
+571,"Nieto, Hoyos and Correa",Ecuador,13,3.5,True
+572,"Rodríguez, González and Hernández",Chile,5,4.3,False
+573,Padilla-Cabrera,Mexico,7,4.3,True
+574,Gómez-Martínez,Colombia,6,3.7,True
+575,"Ramírez, Cortés and García",Colombia,13,,True
+576,"Cardona, Caicedo and Luna",Mexico,14,5.0,True
+577,"Duarte, González and Bastidas",Ecuador,14,4.2,True
+578,Arias-Ospino,Chile,11,3.6,True
+579,"Rico, Tovar and Ramírez",Ecuador,8,4.5,True
+580,"Castillo, Gómez and Gómez",Colombia,8,3.9,False
+581,"Quintero, Ortega and Cruz",Colombia,14,3.8,True
+582,"Santos, Hernández and Montenegro",Ecuador,4,4.3,True
+583,Pérez-Cerón,Colombia,5,3.2,True
+584,"Benítez, Vega and Palacios",Colombia,13,4.2,True
+585,"Lozano, Blanco and Suárez",Chile,6,5.0,True
+586,Arias Ltd,Ecuador,4,4.3,True
+587,Puentes PLC,Peru,8,3.8,True
+588,Bautista-Bonilla,Colombia,5,3.7,True
+589,"Méndez, Hurtado and Ortiz",Ecuador,13,3.8,True
+590,"Páez, Guevara and Escobar",Ecuador,13,,True
+591,"Martínez, Ramos and Silva",Ecuador,5,3.8,True
+592,"Beltrán, Sepúlveda and Sánchez",Ecuador,8,4.5,False
+593,"Vargas, Córdoba and Bermúdez",Mexico,14,3.0,True
+594,Rodríguez LLC,Ecuador,11,4.5,True
+595,Sánchez-Barrios,Mexico,4,3.8,True
+596,Sierra-León,Ecuador,9,,True
+597,Arboleda-Galvis,Chile,9,3.3,True
+598,Rueda PLC,Peru,10,4.8,True
+599,Londoño Ltd,Peru,1,4.7,True
+600,Silva-Álvarez,Peru,5,4.6,True
+601,Cruz PLC,Peru,12,3.1,False
+602,Vásquez-Gil,Peru,4,,True
+603,"Duarte, Arenas and Ortiz",Peru,5,4.2,True
+604,Ramírez-Vargas,Colombia,5,3.0,True
+605,"Jiménez, Ibarra and Riascos",Ecuador,3,4.0,False
+606,Rueda-Barrios,Chile,3,,True
+607,Ruiz-Romero,Mexico,5,4.3,True
+608,"Castro, González and Buitrago",Chile,13,4.1,False
+609,Triana-Medina,Ecuador,1,4.2,False
+610,Pedraza-Cifuentes,Ecuador,4,4.9,True
+611,Gómez-Pedraza,Ecuador,1,4.7,True
+612,Herrera Group,Chile,8,2.3,True
+613,"Muñoz, Acosta and Ramírez",Peru,4,3.8,True
+614,"Ortiz, Londoño and Ortiz",Mexico,12,3.9,True
+615,Garzón PLC,Peru,9,2.9,True
+616,Vargas Ltd,Peru,11,4.1,True
+617,"Torres, Moreno and López",Mexico,9,4.7,True
+618,Becerra-López,Mexico,7,3.3,True
+619,Rodríguez PLC,Colombia,13,4.2,True
+620,Parra Group,Colombia,7,3.5,True
+621,Bernal-Tovar,Chile,14,3.6,True
+622,Ruiz-Jaimes,Chile,14,4.9,True
+623,Arango and Sons,Colombia,9,3.7,True
+624,"Daza, Gaitán and Gómez",Chile,10,4.3,False
+625,Guerrero and Sons,Peru,4,2.9,True
+626,Bolívar Group,Mexico,12,5.0,True
+627,Díaz-Zambrano,Mexico,10,4.4,True
+628,Pardo-Rodríguez,Mexico,13,3.9,True
+629,"Agudelo, Chaparro and Quintero",Chile,4,4.3,True
+630,Villamil-Ríos,Mexico,12,3.2,True
+631,Campo-Hernández,Peru,7,4.7,True
+632,"Correa, Ramírez and González",Mexico,3,3.8,True
+633,Ariza Ltd,Chile,3,3.9,True
+634,Pinzón-Rodríguez,Mexico,8,3.7,True
+635,Mercado-Jaramillo,Colombia,5,3.7,True
+636,Díaz Ltd,Peru,2,4.4,True
+637,Niño-Molina,Mexico,6,4.2,True
+638,Castillo Inc,Mexico,10,4.4,True
+639,Bejarano Group,Peru,5,4.0,True
+640,Rubio-Rodríguez,Ecuador,14,4.3,True
+641,Moreno-Gallego,Peru,11,3.7,True
+642,Suárez-Vanegas,Ecuador,8,5.0,True
+643,Muñoz LLC,Ecuador,14,3.1,True
+644,"Moreno, Soto and Restrepo",Chile,7,4.8,True
+645,Parra PLC,Peru,2,4.8,False
+646,"Solano, Barrios and Henao",Mexico,1,3.5,True
+647,Morales-Torres,Chile,14,5.0,False
+648,Acosta Group,Chile,14,4.6,True
+649,"Villamil, Arias and Narváez",Ecuador,11,4.6,True
+650,Uribe-Meneses,Ecuador,2,4.0,True
+651,Castellanos Ltd,Chile,5,3.9,True
+652,"Arboleda, García and Cardona",Peru,1,3.9,False
+653,"Morales, Alarcón and González",Mexico,1,4.2,True
+654,"Pabón, Ramírez and Montoya",Ecuador,4,4.8,True
+655,Valencia PLC,Chile,9,4.1,True
+656,González-Rojas,Chile,1,3.5,True
+657,"Reyes, Maldonado and Marín",Peru,14,4.5,True
+658,Cárdenas PLC,Peru,7,4.6,True
+659,Cruz-Martínez,Colombia,4,4.4,True
+660,Sandoval-Álvarez,Mexico,8,,True
+661,Medina Inc,Colombia,12,3.8,True
+662,"Torres, García and Salazar",Peru,5,3.4,True
+663,"Martínez, Portilla and Betancur",Colombia,1,,True
+664,Rengifo Group,Mexico,1,3.0,True
+665,Gutiérrez and Sons,Chile,12,4.1,True
+666,Castañeda Ltd,Peru,2,3.9,True
+667,"Corredor, Rivera and Galindo",Chile,9,3.7,True
+668,Polo-Fajardo,Ecuador,6,2.2,True
+669,García-Alfonso,Ecuador,11,3.3,True
+670,"Hernández, Estrada and González",Colombia,1,4.7,True
+671,"Medina, Hernández and Gonzáles",Ecuador,13,3.6,True
+672,Tovar LLC,Peru,10,4.2,True
+673,Gil-Vásquez,Peru,7,3.2,True
+674,"Rivera, Torres and Cruz",Colombia,3,4.9,True
+675,Castro Ltd,Peru,14,,True
+676,Gómez Ltd,Peru,5,4.2,True
+677,Garzón-Rubio,Chile,7,5.0,True
+678,Moreno Inc,Colombia,6,4.9,True
+679,Hurtado Group,Chile,4,3.8,True
+680,"Sandoval, Bohórquez and Vargas",Ecuador,6,3.6,True
+681,Castillo and Sons,Peru,3,3.8,False
+682,"Rojas, Alvarado and Martínez",Colombia,1,4.3,True
+683,"Chacón, Moreno and Alarcón",Ecuador,5,3.9,True
+684,"Ruiz, Carvajal and Sandoval",Ecuador,2,3.8,True
+685,Moreno-Pardo,Colombia,6,4.9,True
+686,"Guzmán, Peña and Castro",Ecuador,13,3.9,True
+687,"Núñez, Cuéllar and Vallejo",Chile,3,5.0,True
+688,"Duarte, Cortés and Gómez",Chile,1,4.1,True
+689,Ibarra-Sandoval,Chile,2,5.0,True
+690,"Ruiz, Guerrero and Sánchez",Peru,8,4.2,True
+691,Díaz-Montoya,Ecuador,4,4.6,False
+692,Gaitán LLC,Peru,7,3.6,True
+693,"Sánchez, Restrepo and Martínez",Ecuador,1,3.5,True
+694,Bolaños-Velásquez,Ecuador,5,,True
+695,Giraldo LLC,Colombia,6,4.6,True
+696,Valencia Inc,Mexico,7,4.0,True
+697,Sanabria-López,Peru,8,3.2,True
+698,"Salcedo, Martínez and Rivera",Chile,11,3.2,True
+699,"Agudelo, Arboleda and Díaz",Colombia,7,3.1,True
+700,"Vanegas, Velásquez and Acosta",Colombia,12,2.9,True
+701,Suárez-Chávez,Chile,8,4.1,False
+702,Cuesta Ltd,Peru,4,4.7,True
+703,Cano Group,Colombia,4,4.0,True
+704,Vélez Ltd,Colombia,5,2.6,True
+705,Medina and Sons,Colombia,9,3.9,True
+706,"Ruiz, Gutiérrez and Correa",Chile,4,3.9,True
+707,"Mosquera, Muñoz and Molina",Colombia,13,,True
+708,Correa-Arenas,Chile,7,3.1,True
+709,"Correa, Villa and Caro",Chile,13,3.8,True
+710,Álvarez-Gómez,Chile,10,5.0,False
+711,Villamizar Inc,Peru,5,4.3,True
+712,Cortés-Orozco,Chile,4,,True
+713,"Guerrero, Sánchez and Valencia",Peru,11,4.1,True
+714,Jaramillo-Vargas,Peru,5,4.2,True
+715,"Hoyos, Duque and Muñoz",Ecuador,4,4.5,True
+716,Parada-Bedoya,Peru,14,3.5,False
+717,Cruz-Ardila,Chile,7,4.5,True
+718,Pérez-Pinzón,Chile,1,3.2,True
+719,Díaz-Campo,Mexico,7,4.2,True
+720,"Yepes, Silva and Villa",Chile,7,4.1,True
+721,Garcés Ltd,Colombia,13,3.6,True
+722,Cabrera Group,Ecuador,10,4.0,True
+723,Benítez and Sons,Ecuador,3,3.6,True
+724,Toro Inc,Colombia,3,3.4,True
+725,Mora LLC,Peru,9,3.8,True
+726,Garzón Ltd,Colombia,1,3.3,True
+727,"Barreto, Navarro and Rodríguez",Peru,5,,True
+728,"Caicedo, Rodríguez and Contreras",Colombia,2,3.3,True
+729,Lozano-Gutiérrez,Chile,1,4.4,True
+730,"Guerra, Gil and Arévalo",Peru,13,3.3,True
+731,González Inc,Peru,2,3.7,True
+732,"Sánchez, Ramírez and Silva",Chile,1,3.6,True
+733,Ortiz-Medina,Ecuador,14,4.8,True
+734,Olaya-Cruz,Peru,3,4.2,True
+735,Cerón and Sons,Mexico,12,,True
+736,Duque-Miranda,Peru,1,4.3,True
+737,"Arroyo, Bernal and Gómez",Peru,3,2.7,True
+738,Rivera-Cortés,Mexico,2,4.0,True
+739,Henao Ltd,Peru,10,5.0,True
+740,García Group,Ecuador,9,4.1,True
+741,"Páez, Ospina and Andrade",Ecuador,7,4.0,True
+742,Lara Inc,Peru,4,4.3,True
+743,Rojas Ltd,Peru,2,4.5,True
+744,"Acosta, Gómez and García",Mexico,8,2.8,True
+745,Maldonado-Londoño,Peru,4,,True
+746,Díaz LLC,Mexico,9,4.1,True
+747,Salamanca PLC,Chile,10,3.6,True
+748,Espinosa Ltd,Mexico,12,4.8,True
+749,Oviedo-Suárez,Mexico,7,3.8,False
+750,"Moreno, Palacio and Giraldo",Colombia,1,2.8,True
+751,"Quintero, Tovar and Hernández",Ecuador,4,3.2,True
+752,"Vanegas, Sierra and Bastidas",Colombia,12,2.4,True
+753,López and Sons,Colombia,8,3.9,True
+754,Herrera PLC,Ecuador,9,3.9,True
+755,"Medina, Perdomo and Gómez",Chile,7,3.7,True
+756,Páez-Cardona,Chile,3,4.6,True
+757,Mosquera Group,Peru,13,,True
+758,Díaz-Orozco,Mexico,11,3.9,True
+759,García-Beltrán,Colombia,14,2.7,True
+760,Amaya Inc,Peru,12,4.4,True
+761,Sánchez-Amaya,Colombia,5,4.3,True
+762,"Sánchez, Giraldo and Mosquera",Chile,4,4.2,True
+763,Rodríguez LLC,Ecuador,4,4.6,True
+764,Mosquera-Ortiz,Ecuador,13,3.3,True
+765,García Group,Mexico,8,5.0,True
+766,Velásquez-Molina,Peru,7,3.4,True
+767,Rodríguez LLC,Peru,14,4.4,True
+768,"López, Carvajal and Valencia",Chile,9,3.0,True
+769,Rodríguez-Peña,Colombia,13,3.4,True
+770,Vanegas PLC,Mexico,14,4.9,True
+771,Córdoba and Sons,Peru,2,3.8,True
+772,"Flórez, Hernández and Suárez",Ecuador,6,4.5,True
+773,Sánchez-Pérez,Colombia,11,4.1,True
+774,Salazar-Ramos,Peru,12,3.9,True
+775,Morales and Sons,Ecuador,3,4.8,True
+776,"Pineda, Vega and Ramírez",Ecuador,5,3.9,True
+777,Hernández Inc,Chile,8,2.9,False
+778,Quintero-Beltrán,Colombia,12,3.5,True
+779,Mendoza-Osorio,Mexico,2,4.3,True
+780,"Quiroz, Hernández and Ruiz",Ecuador,9,4.2,True
+781,"Ramírez, Álvarez and Alfonso",Ecuador,5,3.1,True
+782,Jiménez-Vélez,Peru,4,3.6,True
+783,Bolaños-Ocampo,Colombia,8,3.7,True
+784,Rivera-Ayala,Colombia,6,3.8,True
+785,Morales-Montenegro,Chile,9,3.2,True
+786,Vega PLC,Chile,5,3.6,False
+787,Carrillo PLC,Colombia,12,3.6,True
+788,Cantillo Group,Peru,2,,True
+789,"Rojas, Bautista and Serrano",Chile,13,4.5,True
+790,Figueroa Group,Colombia,1,3.9,True
+791,"Sierra, Barrera and Vargas",Colombia,11,3.8,True
+792,"Sánchez, Salazar and Rivera",Chile,5,4.1,True
+793,Arroyo-Acosta,Peru,6,3.5,True
+794,Lozano-Salgado,Ecuador,1,3.3,True
+795,"Guerrero, Gómez and Bolaños",Chile,10,3.4,True
+796,"Lara, Montoya and Henao",Mexico,3,3.6,True
+797,González and Sons,Ecuador,10,3.3,True
+798,"Vergara, Pérez and Ávila",Chile,11,4.1,True
+799,"Castrillón, Buitrago and Castillo",Mexico,12,4.4,True
+800,Paz-Osorio,Chile,10,3.0,False
