@@ -5,12 +5,10 @@ Autor: Manuel Alejandro Gomez Paredes
 
 Generar las 7 tablas fuente segun documentacion
 
-SUPUESTO DOCUMENTADO: el enunciado no incluye una tabla de centros de
-distribución entre las fuentes oficiales, pero el contexto de negocio
-menciona 3 CD regionales (Bogotá, Ciudad de México, Santiago de Chile)
-usados para calcular tiempo de reabastecimiento. Se añade el campo
-'centro_distribucion' en MSTR_TIENDAS, asignado por país, como proxy
-simplificado de esa relación logística.
+Supuesto Docuemntado: El enunciado no incluye tabla de los centros de distribucion,
+pero en el contexto del negocio menciona a 3 CD regionales, usados para calcular
+tiempo de reabastecimiento. Por ende se añade el campo 'centro_distribucion' en
+MSTR_TIENDAS.
 """
 
 import os

@@ -1,0 +1,95 @@
+{
+    "name": "pl_ingesta_bronze",
+    "properties": {
+        "activities": [
+            {
+                "name": "ForEach1",
+                "type": "ForEach",
+                "dependsOn": [],
+                "userProperties": [],
+                "typeProperties": {
+                    "items": {
+                        "value": "@pipeline().parameters.tablas",
+                        "type": "Expression"
+                    },
+                    "isSequential": true,
+                    "activities": [
+                        {
+                            "name": "cp_tabla_bronze",
+                            "type": "Copy",
+                            "dependsOn": [],
+                            "policy": {
+                                "timeout": "0.12:00:00",
+                                "retry": 3,
+                                "retryIntervalInSeconds": 30,
+                                "secureOutput": false,
+                                "secureInput": false
+                            },
+                            "userProperties": [],
+                            "typeProperties": {
+                                "source": {
+                                    "type": "AzureSqlSource",
+                                    "queryTimeout": "02:00:00",
+                                    "partitionOption": "None"
+                                },
+                                "sink": {
+                                    "type": "ParquetSink",
+                                    "storeSettings": {
+                                        "type": "AzureBlobFSWriteSettings"
+                                    },
+                                    "formatSettings": {
+                                        "type": "ParquetWriteSettings"
+                                    }
+                                },
+                                "enableStaging": false,
+                                "translator": {
+                                    "type": "TabularTranslator",
+                                    "typeConversion": true,
+                                    "typeConversionSettings": {
+                                        "allowDataTruncation": true,
+                                        "treatBooleanAsNumber": false
+                                    }
+                                }
+                            },
+                            "inputs": [
+                                {
+                                    "referenceName": "ds_sql_source",
+                                    "type": "DatasetReference",
+                                    "parameters": {
+                                        "tableName": "@item()"
+                                    }
+                                }
+                            ],
+                            "outputs": [
+                                {
+                                    "referenceName": "ds_datalake_bronze",
+                                    "type": "DatasetReference",
+                                    "parameters": {
+                                        "tableName": "@item()"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "parameters": {
+            "tablas": {
+                "type": "array",
+                "defaultValue": [
+                    "MSTR_PROVEEDORES",
+                    "MSTR_ARTICULOS",
+                    "MSTR_TIENDAS",
+                    "CRM_MIEMBROS",
+                    "TRANS_VENTAS",
+                    "INV_STOCK_DIARIO",
+                    "POST_DEVOLUCIONES"
+                ]
+            }
+        },
+        "annotations": [],
+        "lastPublishTime": "2026-09-07T21:50:39Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}
