@@ -5,20 +5,17 @@ Este repositorio contiene la solución técnica de ingeniería de datos para el 
 ---
 
 ## 1. Arquitectura de la Solución
-[ Generador Python ]
-│ (seed=42 / Faker)
-▼
-[ Azure SQL Database ] (Origen Transaccional)
-│
-│  Azure Data Factory (Pipeline: pl_ingesta_bronze)
-▼
-┌─────────────────────────────────────────────────────────┐
-│              Azure Data Lake Storage Gen2               │
-├──────────────┬──────────────────────────┬───────────────┤
-│ 🥉 BRONZE    │ 🥈 SILVER               │ 🥇 GOLD       │
-│ Data Cruda   │ Limpieza, Calidad & PII  │ Modelado DWH  │
-│ (Parquet)    │ (Data Flows / Error Tab) │ & Reglas RFM  │
-└──────────────┴──────────────────────────┴───────────────
+
+mermaid
+graph TD
+    A[Generador Python<br/>seed=42 / Faker] --> B[(Azure SQL Database<br/>Origen Transaccional)]
+    B -->|Azure Data Factory<br/>Pipeline: pl_ingesta_bronze| C[Azure Data Lake Storage Gen2]
+    
+    subgraph ADLS Gen2 - Arquitectura Medallion
+        C --> D[🥉 BRONZE<br/>Data Cruda / Parquet]
+        D --> E[🥈 SILVER<br/>Limpieza, Calidad & PII]
+        E --> F[🥇 GOLD<br/>Modelado DWH & Reglas RFM]
+    end
 
 ---
 
